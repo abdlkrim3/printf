@@ -43,6 +43,7 @@ int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
+<<<<<<< HEAD
 /****************** FUNCTIONS ******************/
 
 /* Funtions to print chars and strings */
@@ -115,3 +116,5 @@ long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
 #endif /* MAIN_H */
+=======
+>>>>>>> e78449c07f52d4d2192925f7fcf06d9de1371ea5
